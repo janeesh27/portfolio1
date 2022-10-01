@@ -17,7 +17,7 @@ body {
 .container {
     width: 100%;
     margin: 0;
-    background-image: url("background2.jpg");
+    background-image: url("media/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
