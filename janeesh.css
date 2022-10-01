@@ -1,0 +1,175 @@
+/* ##############defaults##################### */
+
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+
+/* ###############body##################### */
+.container {
+    width: 100%;
+    margin: 0;
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+div.container div h1 {
+    color: azure;
+    align-items: left;
+    margin: 0;
+    padding: 140px 400px 5px 566px;
+    opacity: 60%;
+}
+
+div.container h2 {
+    align-items: left;
+    color: azure;
+    margin: 0;
+    padding: 5px 359px 0px 535px;
+    opacity: 60%;
+}
+
+
+/* ################NavBar#################### */
+nav {
+    width: 100%;
+    margin: 0;
+
+}
+
+nav ul {
+
+    background-color: grey;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.topnav li {
+    list-style: none;
+
+    float: right;
+
+}
+
+
+
+ul.topnav li a {
+    text-decoration: none;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font: bolder;
+    color: rgb(54, 54, 54);
+
+}
+
+ul.topnav li a:hover {
+    background-color: black;
+    color: silver;
+}
+
+/* ################NavBar#################### */
+
+/* #############animation################### */
+.animation img {
+    width: 150px;
+
+    animation: codes 7s linear infinite;
+}
+
+.animation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -170px;
+
+}
+
+@keyframes codes {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 1;
+
+    }
+
+   
+
+  
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.animation img:nth-child(1) {
+
+    animation-delay: 2s;
+}
+
+.animation img:nth-child(2) {
+
+    animation-delay: 6s;
+}
+
+.animation img:nth-child(3) {
+
+    animation-delay: 2.5s;
+}
+
+.animation img:nth-child(4) {
+
+    animation-delay: 4s;
+}
+
+.animation img:nth-child(5) {
+
+    animation-delay: 3.5s;
+}
+
+.animation img:nth-child(6) {
+
+    animation-delay: 1s;
+}
+
+/* ###################animation#####################*/
+
+
+/* ########################mobile######################## */
+
+@media screen and (max-width:680px) {
+    ul.topnav {
+        display: block;
+
+    }
+
+    ul.topnav li a {
+        align-items: center;
+    }
+
+}
