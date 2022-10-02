@@ -18,7 +18,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("media/background2.jpg");
+  background-image: url("media/bg2\ .jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -48,6 +48,8 @@ nav {
     
   width: 100%;
   margin: 0;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 nav ul {
@@ -59,7 +61,6 @@ nav ul {
 
 ul.topnav li {
   list-style: none;
-
   float: right;
 }
 
@@ -80,6 +81,35 @@ ul.topnav li a:hover {
 }
 
 /* ################NavBar#################### */
+
+/*################skills section###################*/
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #############animation################### */
 .animation img {
