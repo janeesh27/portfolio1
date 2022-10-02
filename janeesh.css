@@ -22,16 +22,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
-  
+
   overflow: hidden;
 }
 
-.main-body .container h1,
-h2 {
+ .container {
+  display: flex;
   color: azure;
-  grid-row: 2 / 3;
-
+  grid-column: 2/3;
   opacity: 60%;
+  
+}
+.container h1{
+padding: 8rem 0 0 8rem
+         
 }
 
 /* ################NavBar#################### */
