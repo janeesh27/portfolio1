@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("media/bg2\ .jpg");
+  opacity: .8;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -26,26 +27,22 @@ body {
   overflow: hidden;
 }
 
- .container {
-    margin-top: 4rem;
+.container {
+  margin-top: 4rem;
   display: inline-block;
   color: azure;
   grid-column: 2/3;
-  opacity: 60%;
   
 }
-.container h1{
-    
-text-align: center;
-         
+.container h1 {
+  text-align: center;
 }
-.container h2{
-    text-align: center;
+.container h2 {
+  text-align: center;
 }
 
 /* ################NavBar#################### */
 nav {
-    
   width: 100%;
   margin: 0;
   display: grid;
@@ -83,32 +80,35 @@ ul.topnav li a:hover {
 /* ################NavBar#################### */
 
 /*################skills section###################*/
-
-.skills{
-    display: grid;
-    grid-template-columns: auto auto auto;
+.heading {
+  display: grid;
+  grid-template-columns: auto;
+  background: black;
+  color: azure;
+  font-size: 200px;
+  text-align: center;
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.skills {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  row-gap: 5rem;
+  column-gap: 5rem;
+  transition: transform 0.2s;
+  
+  margin: 0;
+  
+}
+.skills img:hover {
+    transform: scale(1.5);
+  }
+  
+ .skills img {
+  
+  height: 6rem;
+  width: 6rem;
+} 
 
 
 /* #############animation################### */
