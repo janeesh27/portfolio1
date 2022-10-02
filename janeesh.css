@@ -27,19 +27,25 @@ body {
 }
 
  .container {
-  display: flex;
+    margin-top: 4rem;
+  display: inline-block;
   color: azure;
   grid-column: 2/3;
   opacity: 60%;
   
 }
 .container h1{
-padding: 8rem 0 0 8rem
+    
+text-align: center;
          
+}
+.container h2{
+    text-align: center;
 }
 
 /* ################NavBar#################### */
 nav {
+    
   width: 100%;
   margin: 0;
 }
