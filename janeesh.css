@@ -19,7 +19,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("media/bg2\ .jpg");
-  opacity: .8;
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+   opacity: .8; 
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
