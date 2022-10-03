@@ -82,51 +82,7 @@ ul.topnav li a:hover {
 
 /* ################NavBar#################### */
 
-/*################skills section###################*/
 
-
-
-
-
-
-
-
-
-
-
-.heading {
-  display: grid;
-  grid-template-columns: auto;
-  background: black;
-  color: azure;
-  font-size: 200px;
-  text-align: center;
-  height: 420px;
-  
-  
-}
-.skills {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: black;
-  row-gap: 3rem;
-  column-gap: 3rem;
-  transition: transform 0.2s;
-  
-  margin: 0;
-  
-}
-.skills img:hover {
-    transform: scale(2);
-  }
-  
- .skills img {
-  border-radius: 3rem;
-  height: 6rem;
-  width: 6rem;
-  padding-left: 10rem;
-
-} 
 
 
 /* #############animation################### */
@@ -142,7 +98,7 @@ ul.topnav li a:hover {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: -170px;
+  bottom: -10px;
 }
 
 @keyframes codes {
@@ -186,6 +142,32 @@ ul.topnav li a:hover {
 }
 
 /* ###################animation#####################*/
+/* ##############################footer##################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ########################mobile######################## */
 
