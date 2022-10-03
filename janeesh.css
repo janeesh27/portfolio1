@@ -63,6 +63,7 @@ ul.topnav li {
 
 ul.topnav li a {
   text-decoration: none;
+  background-color: grey;
   display: block;
   min-height: 16px;
   text-align: center;
@@ -80,6 +81,17 @@ ul.topnav li a:hover {
 /* ################NavBar#################### */
 
 /*################skills section###################*/
+
+
+
+
+
+
+
+
+
+
+
 .heading {
   display: grid;
   grid-template-columns: auto;
@@ -87,27 +99,31 @@ ul.topnav li a:hover {
   color: azure;
   font-size: 200px;
   text-align: center;
+  height: 420px;
+  
   
 }
 .skills {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: black;
-  row-gap: 5rem;
-  column-gap: 5rem;
+  row-gap: 3rem;
+  column-gap: 3rem;
   transition: transform 0.2s;
   
   margin: 0;
   
 }
 .skills img:hover {
-    transform: scale(1.5);
+    transform: scale(2);
   }
   
  .skills img {
-  
+  border-radius: 3rem;
   height: 6rem;
   width: 6rem;
+  padding-left: 10rem;
+
 } 
 
 
