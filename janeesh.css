@@ -21,7 +21,7 @@ body {
   background-image: url("media/bg2\ .jpg");
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
-   opacity: .8; 
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -34,7 +34,6 @@ body {
   display: inline-block;
   color: azure;
   grid-column: 2/3;
-  
 }
 .container h1 {
   text-align: center;
@@ -81,9 +80,6 @@ ul.topnav li a:hover {
 }
 
 /* ################NavBar#################### */
-
-
-
 
 /* #############animation################### */
 .animation img {
@@ -144,31 +140,30 @@ ul.topnav li a:hover {
 /* ###################animation#####################*/
 /* ##############################footer##################### */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer {
+  background-color: gray;
+  display: grid;
+ grid-template-columns: 50% 50%;
+}
+.footer h4{
+    text-align: center;
+    color: silver;
+}
+.social{
+    display: inline-block;
+}
+.social ul {
+    
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+.social ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: silver;
+    font-family: 'Times New Roman', Times, serif;
+}
 /* ########################mobile######################## */
 
 @media screen and (max-width: 680px) {
