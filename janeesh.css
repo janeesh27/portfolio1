@@ -170,37 +170,33 @@ padding-left: 10rem;
 /* ########################mobile######################## */
 
 @media screen and (max-width: 680px) {
-  *{
-    
+  body{
+    overflow-x: hidden;
+
   }
     .topnav {
     display: grid;
     grid-template-columns:auto auto;
     
+    
     width: 100%;
+    
 
   }
 
   .container {
     display: grid;
     /* grid-template-columns: auto; */
-max-width: 680px;  
+
 }
-  .container h1 {
-    /* text-align: center; */
-  }
-  .container h2{
-    /* text-align: center; */
-    /* margin-top: 1em; */
-  }
-  .animation{
-width: 25%;   
+
+
+.animation{
+width: 100%;   
 }
+
 .footer{
     display: grid;
     grid-template-columns: auto;
 }
-
-
-
 }
