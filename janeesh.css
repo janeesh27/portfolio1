@@ -149,17 +149,19 @@ ul.topnav li a:hover {
     text-align: center;
     color: silver;
 }
-.social{
+.social {
+padding-left: 10rem;    
     display: inline-block;
+    
 }
 .social ul {
-    
+    text-align: center;
     list-style: none;
     display: inline-block;
-    text-align: center;
+    
 }
 .social ul li a{
-    text-align: center;
+    
     text-decoration: none;
     color: silver;
     font-family: 'Times New Roman', Times, serif;

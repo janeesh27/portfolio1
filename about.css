@@ -34,3 +34,14 @@
     margin-top: 6rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+.copyright{
+  grid-column: 2/3;
+  margin-top: 5rem;
+}
+.copyright p2{
+  text-align: center;
+
+}
+.copyright{
+  text-align: center;
+}
