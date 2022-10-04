@@ -7,6 +7,7 @@
   grid-template-columns: 20% 60% 20%;
   color: grey;
   height: 10rem;
+  width: 100%;
 }
 .content {
   grid-column: 2/3;
@@ -44,4 +45,26 @@
 }
 .copyright{
   text-align: center;
+}
+
+
+@media screen and (max-width: 680px){
+ .about-section{
+  width: 25%;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: auto;
+  
+ 
+}
+.content{
+  text-align: justify;
+
+}
+
+
+
+
+
 }
