@@ -15,13 +15,12 @@ body {
 /* ###############body##################### */
 .main-body {
   /* Remove grid + add height 100vh */
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  height: 100%;
+
+  height: 100vh;
   
   background-position: center;
   background-image: url("media/bg2\ .jpg");
-  
+text-align: center;
   opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,10 +30,12 @@ body {
 }
 
 .container {
-  margin-top: 4rem;
+  margin-top:2rem;
   display: inline-block;
   color: azure;
-  grid-column: 2/3;
+  border: 4px solid white;
+  text-align: center;
+  padding: 1rem;
 }
 .container h1 {
   text-align: center;
@@ -95,9 +96,9 @@ ul.topnav li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
+  /* position: absolute; */
   bottom: -10px;
-  /* add flex wrap */
+  flex-wrap: wrap;
 }
 
 @keyframes codes {
@@ -147,7 +148,7 @@ ul.topnav li a:hover {
   background-color: gray;
   display: grid;
  grid-template-columns: 50% 50%;
- /* postion fixed bottom 0 */
+ 
 }
 .footer h4{
     text-align: center;
@@ -189,6 +190,7 @@ padding-left: 10rem;
 
   .container {
     display: grid;
+    margin-top: auto;
     /* grid-template-columns: auto; */
 
 }
@@ -201,5 +203,11 @@ width: 100%;
 .footer{
     display: grid;
     grid-template-columns: auto;
+}
+.footer h4{
+  text-align: center;
+}
+.social ul li a{
+  text-align: center;
 }
 }
